@@ -1,0 +1,26 @@
+{
+  "name": "learn_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "ts-node src",
+    "build": "tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinWooPark-dotcom/learn_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinWooPark-dotcom/learn_typescript/issues"
+  },
+  "homepage": "https://github.com/MinWooPark-dotcom/learn_typescript#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
