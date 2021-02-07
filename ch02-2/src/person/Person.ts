@@ -1,10 +1,7 @@
-import {makeRandomNumber} from '../utils/makeRandomNumber'
-import IPerson from './IPerson'
-
-export default class Person implements IPerson {
-    constructor(public name:string, public age: number = makeRandomNumber()) {}
+class Person1 {
+    name: string
+    age?: number
 }
-
-
-export const makePerson = (name:string,
-    age:number = makeRandomNumber()) : IPerson => ({name, age})
+let jack1 : Person1 = new Person1()
+jack1.name = 'Jack'; jack1.age= 32
+console.log(jack1)
